@@ -9,10 +9,10 @@ import static io.appium.java_client.AppiumBy.accessibilityId;
 import static io.appium.java_client.AppiumBy.id;
 
 public class SearchComponent {
-    SelenideElement searchContainer = $(accessibilityId("Search Wikipedia"));
-    SelenideElement searchSrcText = $(id("org.wikipedia.alpha:id/search_src_text"));
-    SelenideElement pageListItemTitle = $(id("org.wikipedia.alpha:id/page_list_item_title"));
-    ElementsCollection pageListItemTitles = $$(id("org.wikipedia.alpha:id/page_list_item_title"));
+    private final SelenideElement searchContainer = $(accessibilityId("Search Wikipedia"));
+    private final SelenideElement searchSrcText = $(id("org.wikipedia.alpha:id/search_src_text"));
+    private final SelenideElement pageListItemTitle = $(id("org.wikipedia.alpha:id/page_list_item_title"));
+    private final ElementsCollection pageListItemTitles = $$(id("org.wikipedia.alpha:id/page_list_item_title"));
 
     public SelenideElement searchContainer() {
         return searchContainer;
