@@ -14,12 +14,12 @@ repositories {
 }
 
 dependencies {
-    testImplementation("com.codeborne:selenide:7.12.2")
     testImplementation(platform("org.junit:junit-bom:6.0.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    testImplementation("com.codeborne:selenide:7.12.2")
+    testImplementation("io.qameta.allure:allure-selenide:2.31.0")
     testImplementation("io.rest-assured:rest-assured:5.5.6")
     testImplementation("io.qameta.allure:allure-rest-assured:2.31.0")
-    testImplementation("io.qameta.allure:allure-selenide:2.31.0")
     allureRawResultElements(files(layout.buildDirectory.dir("allure-results")))
     testImplementation("org.aeonbits.owner:owner:1.0.12")
     testImplementation("io.appium:java-client:10.0.0")
