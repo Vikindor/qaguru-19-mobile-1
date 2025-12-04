@@ -1,9 +1,9 @@
-package io.github.vikindor.config;
+package io.github.vikindor.configs;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.Sources;
 
-@Sources({"classpath:${device}.properties"}) // device=android / device=ios
+@Sources({"classpath:${device}.properties"})
 public interface BrowserstackConfig extends Config {
 
     @Key("platformName")

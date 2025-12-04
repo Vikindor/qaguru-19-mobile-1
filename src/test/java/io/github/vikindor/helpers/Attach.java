@@ -1,7 +1,7 @@
 package io.github.vikindor.helpers;
 
 import com.codeborne.selenide.Selenide;
-import io.github.vikindor.config.BrowserstackConfig;
+import io.github.vikindor.configs.BrowserstackConfig;
 import io.qameta.allure.Attachment;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.OutputType;

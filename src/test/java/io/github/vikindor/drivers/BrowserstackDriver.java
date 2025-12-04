@@ -6,7 +6,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
-import io.github.vikindor.config.BrowserstackConfig;
+import io.github.vikindor.configs.BrowserstackConfig;
 
 import java.net.URL;
 
