@@ -53,6 +53,6 @@ public class TestBase {
 
         closeWebDriver();
 
-        Attach.video(sessionId);
+        Attach.browserStackVideo(sessionId);
     }
 }
